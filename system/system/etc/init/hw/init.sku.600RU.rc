@@ -1,0 +1,10 @@
+on fs
+    setprop ro.product.device AOP
+    setprop ro.product.locale ru-RU
+    setprop ro.product.name Beholder_00RU
+    setprop ro.product.model.display TA-1087
+    setprop ro.com.google.clientidbase android-hmd
+    setprop ro.build.version.base_os "Nokia/Beholder_00RU/AOP:9/PPR1.180610.011/00WW_4_27D:user/release-keys"
+on fs
+	setprop ro.build.fingerprint Nokia/Beholder_00RU/AOP:9/PPR1.180610.011/00WW_4_27G:user/release-keys
+	setprop ro.build.description "Beholder_00RU-user 9 PPR1.180610.011 00WW_4_27G release-keys"

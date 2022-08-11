@@ -1,0 +1,25 @@
+on fs
+    setprop ro.build.sp.num 03
+    setprop ro.wifi.channels 11
+    setprop ro.product.brand Nokia
+    setprop ro.product.board SDM845
+    setprop ro.product.model.num 00WW
+    setprop ro.product.model "Nokia 9"
+    setprop persist.radio.sar.enabled 3
+    setprop ro.config.dbgcfgtool_config 2
+    setprop ro.product.name Beholder_00WW
+    setprop ro.product.nickname "Nokia 9"
+    setprop ro.com.android.mobiledata true
+    setprop ro.com.google.rlzbrandcode HMDG
+    setprop ro.telephony.default_network 22
+    setprop ro.com.android.dataroaming false
+    setprop ro.com.google.rlz_ap_whitelist YH
+    setprop ro.product.manufacturer "HMD Global"
+    setprop ro.product.ril.nickname ${ro.product.nickname}
+    setprop setupwizard.feature.deferred_snooze_allow_never true
+    setprop ro.product.ril.model.display ${ro.product.model.display}
+on post-fs
+    setprop media.settings.xml "product/etc/media_profiles_vendor.xml"
+on fs
+	setprop ro.build.fingerprint Nokia/Beholder_00WW/fih_sdm845:9/PPR1.180610.011/00WW_4_27G:user/release-keys
+	setprop ro.build.description "Beholder_00WW-user 9 PPR1.180610.011 00WW_4_27G release-keys"

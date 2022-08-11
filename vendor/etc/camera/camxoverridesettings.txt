@@ -1,0 +1,5 @@
+logInfoMask=0x0
+EISV3Enable=0
+EISV2Enable=0
+outputFormat=OutputFormatYUV420NV12
+IFEMinHWClkRate=600000000

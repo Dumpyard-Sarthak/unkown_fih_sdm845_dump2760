@@ -1,0 +1,14 @@
+# Beholder_00WW-user 9 PPR1.180610.011 00WW_4_27G release-keys
+- manufacturer: unknown
+- platform: sdm845
+- codename: fih_sdm845
+- flavor: fih_sdm845_AOP_00WW-user
+- release: 9
+- id: PPR1.180610.011
+- incremental: 00WW_4_27G
+- tags: release-keys
+- fingerprint: Nokia/Beholder_00WW/fih_sdm845:9/PPR1.180610.011/00WW_4_27G:user/release-keys
+- is_ab: true
+- brand: Unkown
+- branch: Beholder_00WW-user-9-PPR1.180610.011-00WW_4_27G-release-keys
+- repo: unkown_fih_sdm845_dump2760

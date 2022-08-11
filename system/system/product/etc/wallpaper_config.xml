@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Wallpaper>
+    <project name="default">
+        <sku id="default">
+            <item name="ACTION_PARTNER_CUSTOMIZATION">com.evenwell.foxlauncher.action.PARTNER_CUSTOMIZATION</item>
+            <item name="default_property">0</item>
+            <mapping-wallpaper type="propertyWallpaper" value="0">ore</mapping-wallpaper>
+            <mapping-wallpaper type="propertyWallpaper" value="L">ore</mapping-wallpaper>
+            <mapping-wallpaper type="propertyWallpaper" value="B">ore</mapping-wallpaper>
+        </sku>
+    </project>
+</Wallpaper>

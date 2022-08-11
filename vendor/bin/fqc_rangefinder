@@ -1,0 +1,10 @@
+#!/vendor/bin/sh
+result=0
+result_prop="vendor.sys.fqcrangefinder.result"
+
+r=($(lcc -m 0 -s 0 -w -p 01 00 56 82 02 && sleep 1 && lcc -m 0 -s 0 -r -p 02 00 56 02))
+result=$((16#${r[1]}${r[0]}))
+echo $result
+setprop $result_prop $result
+
+exit 0
